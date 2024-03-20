@@ -26,5 +26,11 @@ namespace Notes_Microservice.Service
 
             return true;
         }
+
+        public List<NotesEntity> GetNotes(int userId)
+        {
+            var notes = _context.Notes.Where(e => e.CreatedBy == userId).ToList();
+            return notes;
+        }
     }
 }

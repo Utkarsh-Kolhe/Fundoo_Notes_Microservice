@@ -46,5 +46,35 @@ namespace Notes_Microservice.Controllers
             }
             return responseModel;
         }
+
+        [HttpGet]
+        [Authorize]
+        public ResponseModel<List<NotesEntity>> GetNotes()
+        {
+            var responseModel = new ResponseModel<List<NotesEntity>>();
+            try
+            {
+                var _userId = User.FindFirstValue("UserId");
+                int userId = Convert.ToInt32(_userId);
+                var notes = _notesInterface.GetNotes(userId);
+
+                if (notes.Count != 0)
+                {
+                    responseModel.Message = "Notes retrived successfully.";
+                    responseModel.Data = notes;
+                }
+                else
+                {
+                    responseModel.Success = false;
+                    responseModel.Message = "There is no note.";
+                }
+            }
+            catch (Exception ex)
+            {
+                responseModel.Success = false;
+                responseModel.Message = ex.Message;
+            }
+            return responseModel;
+        }
     }
 }

@@ -24,5 +24,25 @@
         "StatusCode": 200
       }
     ]
+  },
+  {
+    "ContainingType": "Notes_Microservice.Controllers.NotesController",
+    "Method": "GetNotes",
+    "RelativePath": "api/Notes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Notes_Microservice.Model.ResponseModel\u00601[[System.Collections.Generic.List\u00601[[Notes_Microservice.Entity.NotesEntity, Notes_Microservice, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
   }
 ]
