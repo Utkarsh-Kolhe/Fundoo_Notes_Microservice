@@ -1,0 +1,28 @@
+[
+  {
+    "ContainingType": "User_Microservice.Controllers.UserController",
+    "Method": "UserRegistration",
+    "RelativePath": "api/User",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "User_Microservice.Model.UserRegistrationModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "User_Microservice.Model.ResponseModel\u00601[[User_Microservice.Model.UserRegistrationModel, User_Microservice, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]
