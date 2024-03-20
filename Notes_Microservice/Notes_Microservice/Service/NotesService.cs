@@ -48,5 +48,17 @@ namespace Notes_Microservice.Service
             }
             return false;
         }
+
+        public bool DeleteNote(int noteId, int userId)
+        {
+            var note = _context.Notes.FirstOrDefault(e => (e.NoteId == noteId && e.CreatedBy == userId));
+            if (note != null)
+            {
+                _context.Notes.Remove(note);
+                _context.SaveChanges();
+                return true;
+            }
+            return false;
+        }
     }
 }

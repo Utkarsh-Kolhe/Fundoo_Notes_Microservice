@@ -32,7 +32,7 @@ namespace Notes_Microservice.Controllers
 
                 var result = _notesInterface.AddNote(model, userId);
 
-                if(result)
+                if (result)
                 {
                     responseModel.Message = "Note created successfully.";
                     responseModel.Data = model;
@@ -101,9 +101,40 @@ namespace Notes_Microservice.Controllers
             }
             catch (Exception ex)
             {
-                responseModel.Success= false;
+                responseModel.Success = false;
                 responseModel.Message = ex.Message;
             }
+            return responseModel;
+        }
+
+        [HttpDelete]
+        [Authorize]
+        public ResponseModel<string> DeleteNote(int noteId)
+        {
+            var responseModel = new ResponseModel<string>();
+            try
+            {
+                var _userId = User.FindFirstValue("UserId");
+                int userId = Convert.ToInt32(_userId);
+
+                var result = _notesInterface.DeleteNote(noteId, userId);
+
+                if(result)
+                {
+                    responseModel.Message = "Note delete successfully.";
+                }
+                else
+                {
+                    responseModel.Success = false;
+                    responseModel.Message = "Note not found";
+                }
+            }
+            catch (Exception ex)
+            {
+                responseModel.Success = false;
+                responseModel.Message = ex.Message;
+            }
+
             return responseModel;
         }
     }
