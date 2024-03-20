@@ -1,0 +1,28 @@
+[
+  {
+    "ContainingType": "Notes_Microservice.Controllers.NotesController",
+    "Method": "AddNote",
+    "RelativePath": "api/Notes",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "Notes_Microservice.Models.NotesModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Notes_Microservice.Model.ResponseModel\u00601[[Notes_Microservice.Models.NotesModel, Notes_Microservice, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]
