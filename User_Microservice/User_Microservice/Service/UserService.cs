@@ -3,6 +3,7 @@ using User_Microservice.Entity;
 using User_Microservice.Interface;
 using User_Microservice.Model;
 using User_Microservice.Hashing;
+using User_Microservice.JWT;
 
 namespace User_Microservice.Service
 {
@@ -10,11 +11,13 @@ namespace User_Microservice.Service
     {
         private readonly UserContext _context;
         private readonly HashingPassword _password;
+        private readonly IConfiguration _configuration;
 
-        public UserService(UserContext context, HashingPassword password)
+        public UserService(UserContext context, HashingPassword password, IConfiguration configuration)
         {
             _context = context;
             _password = password;
+            _configuration = configuration;
         }
 
         public bool AddNewUser(UserRegistrationModel model)
@@ -36,7 +39,21 @@ namespace User_Microservice.Service
             {
                 return false;
             }
-            
+        }
+
+        public string UserLogin(UserLoginModel model)
+        {
+            var user = _context.User_Details.FirstOrDefault(e => e.Email == model.Email);
+            if (user != null)
+            {
+                bool passVerify = _password.VerifyPassword(model.Password, user.Password);
+                if (passVerify)
+                {
+                    JwtToken token = new JwtToken(_configuration);
+                    return token.GenerateToken(user);
+                }
+            }
+            return null;
         }
     }
 }

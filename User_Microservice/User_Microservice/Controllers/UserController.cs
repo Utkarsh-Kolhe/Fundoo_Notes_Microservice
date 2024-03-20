@@ -17,7 +17,7 @@ namespace User_Microservice.Controllers
         }
 
 
-        [HttpPost]
+        [HttpPost("userregistration")]
         public ResponseModel<UserRegistrationModel> UserRegistration(UserRegistrationModel model)
         {
             ResponseModel<UserRegistrationModel> responseModel = new ResponseModel<UserRegistrationModel>();
@@ -45,6 +45,34 @@ namespace User_Microservice.Controllers
 
             return responseModel;
         }
+
+        [HttpPost("userlogin")]
+        public ResponseModel<string> UserLogin(UserLoginModel model)
+        {
+            ResponseModel<string> responseModel = new ResponseModel<string>();
+            try
+            {
+                var token = _userInterface.UserLogin(model);
+
+                if (token != null)
+                {
+                    responseModel.Message = "User logged in successfully.";
+                    responseModel.Data = token;
+                }
+                else
+                {
+                    responseModel.Success = false;
+                    responseModel.Message = "Wrong Credentials.";
+                }
+            }
+            catch (Exception ex)
+            {
+                responseModel.Success=false;
+                responseModel.Message = ex.Message;
+            }
+            return responseModel;
+        }
+
 
     }
 }
