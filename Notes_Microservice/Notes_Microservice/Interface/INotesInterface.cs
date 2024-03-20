@@ -7,5 +7,6 @@ namespace Notes_Microservice.Interface
     {
         public bool AddNote(NotesModel model, int userId);
         public List<NotesEntity> GetNotes(int userId);
+        public bool EditNote(int noteId, int userId, NotesModel model);
     }
 }

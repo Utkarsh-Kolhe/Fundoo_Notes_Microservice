@@ -32,5 +32,21 @@ namespace Notes_Microservice.Service
             var notes = _context.Notes.Where(e => e.CreatedBy == userId).ToList();
             return notes;
         }
+
+        public bool EditNote(int noteId, int userId, NotesModel model)
+        {
+            var note = _context.Notes.FirstOrDefault(e => e.NoteId == noteId && e.CreatedBy == userId);
+            if (note != null)
+            {
+                note.Title = model.Title;
+                note.Description = model.Description;
+                note.Colour = model.Colour;
+
+                _context.SaveChanges();
+
+                return true;
+            }
+            return false;
+        }
     }
 }
