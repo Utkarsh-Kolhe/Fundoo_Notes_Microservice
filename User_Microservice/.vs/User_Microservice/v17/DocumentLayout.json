@@ -3,16 +3,24 @@
   "WorkspaceRootPath": "D:\\C# Repository\\User_Microservice\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8ED672C8-00AE-424B-8405-3E5584A0DEE0}|User_Microservice\\User_Microservice.csproj|d:\\c# repository\\user_microservice\\user_microservice\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8ED672C8-00AE-424B-8405-3E5584A0DEE0}|User_Microservice\\User_Microservice.csproj|solutionrelative:user_microservice\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8ED672C8-00AE-424B-8405-3E5584A0DEE0}|User_Microservice\\User_Microservice.csproj|d:\\c# repository\\user_microservice\\user_microservice\\service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8ED672C8-00AE-424B-8405-3E5584A0DEE0}|User_Microservice\\User_Microservice.csproj|solutionrelative:user_microservice\\service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8ED672C8-00AE-424B-8405-3E5584A0DEE0}|User_Microservice\\User_Microservice.csproj|d:\\c# repository\\user_microservice\\user_microservice\\interface\\iuserinterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8ED672C8-00AE-424B-8405-3E5584A0DEE0}|User_Microservice\\User_Microservice.csproj|solutionrelative:user_microservice\\interface\\iuserinterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8ED672C8-00AE-424B-8405-3E5584A0DEE0}|User_Microservice\\User_Microservice.csproj|d:\\c# repository\\user_microservice\\user_microservice\\service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8ED672C8-00AE-424B-8405-3E5584A0DEE0}|User_Microservice\\User_Microservice.csproj|solutionrelative:user_microservice\\service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8ED672C8-00AE-424B-8405-3E5584A0DEE0}|User_Microservice\\User_Microservice.csproj|d:\\c# repository\\user_microservice\\user_microservice\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8ED672C8-00AE-424B-8405-3E5584A0DEE0}|User_Microservice\\User_Microservice.csproj|solutionrelative:user_microservice\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ED672C8-00AE-424B-8405-3E5584A0DEE0}|User_Microservice\\User_Microservice.csproj|d:\\c# repository\\user_microservice\\user_microservice\\model\\userdisplaymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8ED672C8-00AE-424B-8405-3E5584A0DEE0}|User_Microservice\\User_Microservice.csproj|solutionrelative:user_microservice\\model\\userdisplaymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ED672C8-00AE-424B-8405-3E5584A0DEE0}|User_Microservice\\User_Microservice.csproj|d:\\c# repository\\user_microservice\\user_microservice\\model\\userregistrationmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8ED672C8-00AE-424B-8405-3E5584A0DEE0}|User_Microservice\\User_Microservice.csproj|solutionrelative:user_microservice\\model\\userregistrationmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8ED672C8-00AE-424B-8405-3E5584A0DEE0}|User_Microservice\\User_Microservice.csproj|d:\\c# repository\\user_microservice\\user_microservice\\hashing\\hashingpassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -45,10 +53,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{8ED672C8-00AE-424B-8405-3E5584A0DEE0}|User_Microservice\\User_Microservice.csproj|d:\\c# repository\\user_microservice\\user_microservice\\context\\usercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8ED672C8-00AE-424B-8405-3E5584A0DEE0}|User_Microservice\\User_Microservice.csproj|solutionrelative:user_microservice\\context\\usercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8ED672C8-00AE-424B-8405-3E5584A0DEE0}|User_Microservice\\User_Microservice.csproj|d:\\c# repository\\user_microservice\\user_microservice\\model\\userregistrationmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8ED672C8-00AE-424B-8405-3E5584A0DEE0}|User_Microservice\\User_Microservice.csproj|solutionrelative:user_microservice\\model\\userregistrationmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,50 +62,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "JwtToken.cs",
-              "DocumentMoniker": "D:\\C# Repository\\User_Microservice\\User_Microservice\\JWT\\JwtToken.cs",
-              "RelativeDocumentMoniker": "User_Microservice\\JWT\\JwtToken.cs",
-              "ToolTip": "D:\\C# Repository\\User_Microservice\\User_Microservice\\JWT\\JwtToken.cs",
-              "RelativeToolTip": "User_Microservice\\JWT\\JwtToken.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAqwCYAAAAJAAAA",
+              "DocumentIndex": 3,
+              "Title": "UserDisplayModel.cs",
+              "DocumentMoniker": "D:\\C# Repository\\User_Microservice\\User_Microservice\\Model\\UserDisplayModel.cs",
+              "RelativeDocumentMoniker": "User_Microservice\\Model\\UserDisplayModel.cs",
+              "ToolTip": "D:\\C# Repository\\User_Microservice\\User_Microservice\\Model\\UserDisplayModel.cs",
+              "RelativeToolTip": "User_Microservice\\Model\\UserDisplayModel.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA4AAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-20T07:34:53.034Z",
+              "WhenOpened": "2024-03-20T09:19:45.739Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ResponseModel.cs",
-              "DocumentMoniker": "D:\\C# Repository\\User_Microservice\\User_Microservice\\Model\\ResponseModel.cs",
-              "RelativeDocumentMoniker": "User_Microservice\\Model\\ResponseModel.cs",
-              "ToolTip": "D:\\C# Repository\\User_Microservice\\User_Microservice\\Model\\ResponseModel.cs",
-              "RelativeToolTip": "User_Microservice\\Model\\ResponseModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-20T06:41:31.708Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "UserService.cs",
               "DocumentMoniker": "D:\\C# Repository\\User_Microservice\\User_Microservice\\Service\\UserService.cs",
               "RelativeDocumentMoniker": "User_Microservice\\Service\\UserService.cs",
               "ToolTip": "D:\\C# Repository\\User_Microservice\\User_Microservice\\Service\\UserService.cs",
               "RelativeToolTip": "User_Microservice\\Service\\UserService.cs",
-              "ViewState": "AQIAACcAAAAAAAAAAAAqwCsAAAAIAAAA",
+              "ViewState": "AQIAADUAAAAAAAAAAAAgwEMAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-20T05:25:40.541Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\C# Repository\\User_Microservice\\User_Microservice\\Program.cs",
               "RelativeDocumentMoniker": "User_Microservice\\Program.cs",
@@ -109,12 +100,11 @@
               "RelativeToolTip": "User_Microservice\\Program.cs",
               "ViewState": "AQIAACEAAAAAAAAAAAAkwCkAAAADAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-19T13:32:30.766Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-19T13:32:30.766Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "HashingPassword.cs",
               "DocumentMoniker": "D:\\C# Repository\\User_Microservice\\User_Microservice\\Hashing\\HashingPassword.cs",
               "RelativeDocumentMoniker": "User_Microservice\\Hashing\\HashingPassword.cs",
@@ -122,20 +112,32 @@
               "RelativeToolTip": "User_Microservice\\Hashing\\HashingPassword.cs",
               "ViewState": "AQIAAB4AAAAAAAAAAAAYwAIAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-20T05:50:54.091Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-20T05:50:54.091Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "UserController.cs",
               "DocumentMoniker": "D:\\C# Repository\\User_Microservice\\User_Microservice\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "User_Microservice\\Controllers\\UserController.cs",
               "ToolTip": "D:\\C# Repository\\User_Microservice\\User_Microservice\\Controllers\\UserController.cs",
               "RelativeToolTip": "User_Microservice\\Controllers\\UserController.cs",
-              "ViewState": "AQIAACUAAAAAAAAAAAAuwDAAAAAcAAAA",
+              "ViewState": "AQIAAEkAAAAAAAAAAAAgwE0AAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-20T06:29:19.687Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserRegistrationModel.cs",
+              "DocumentMoniker": "D:\\C# Repository\\User_Microservice\\User_Microservice\\Model\\UserRegistrationModel.cs",
+              "RelativeDocumentMoniker": "User_Microservice\\Model\\UserRegistrationModel.cs",
+              "ToolTip": "D:\\C# Repository\\User_Microservice\\User_Microservice\\Model\\UserRegistrationModel.cs",
+              "RelativeToolTip": "User_Microservice\\Model\\UserRegistrationModel.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAYAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T13:23:18.462Z",
               "EditorCaption": ""
             },
             {
@@ -146,14 +148,38 @@
               "RelativeDocumentMoniker": "User_Microservice\\Interface\\IUserInterface.cs",
               "ToolTip": "D:\\C# Repository\\User_Microservice\\User_Microservice\\Interface\\IUserInterface.cs",
               "RelativeToolTip": "User_Microservice\\Interface\\IUserInterface.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAA2AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-20T05:24:50.517Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 9,
+              "Title": "ResponseModel.cs",
+              "DocumentMoniker": "D:\\C# Repository\\User_Microservice\\User_Microservice\\Model\\ResponseModel.cs",
+              "RelativeDocumentMoniker": "User_Microservice\\Model\\ResponseModel.cs",
+              "ToolTip": "D:\\C# Repository\\User_Microservice\\User_Microservice\\Model\\ResponseModel.cs",
+              "RelativeToolTip": "User_Microservice\\Model\\ResponseModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T06:41:31.708Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "JwtToken.cs",
+              "DocumentMoniker": "D:\\C# Repository\\User_Microservice\\User_Microservice\\JWT\\JwtToken.cs",
+              "RelativeDocumentMoniker": "User_Microservice\\JWT\\JwtToken.cs",
+              "ToolTip": "D:\\C# Repository\\User_Microservice\\User_Microservice\\JWT\\JwtToken.cs",
+              "RelativeToolTip": "User_Microservice\\JWT\\JwtToken.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAqwCYAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T07:34:53.034Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "UserContext.cs",
               "DocumentMoniker": "D:\\C# Repository\\User_Microservice\\User_Microservice\\Context\\UserContext.cs",
               "RelativeDocumentMoniker": "User_Microservice\\Context\\UserContext.cs",
@@ -165,7 +191,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "UserLoginModel.cs",
               "DocumentMoniker": "D:\\C# Repository\\User_Microservice\\User_Microservice\\Model\\UserLoginModel.cs",
               "RelativeDocumentMoniker": "User_Microservice\\Model\\UserLoginModel.cs",
@@ -177,7 +203,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\C# Repository\\User_Microservice\\User_Microservice\\appsettings.json",
               "RelativeDocumentMoniker": "User_Microservice\\appsettings.json",
@@ -185,12 +211,11 @@
               "RelativeToolTip": "User_Microservice\\appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAABLAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-03-19T13:29:27.983Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-19T13:29:27.983Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "UserEntity.cs",
               "DocumentMoniker": "D:\\C# Repository\\User_Microservice\\User_Microservice\\Entity\\UserEntity.cs",
               "RelativeDocumentMoniker": "User_Microservice\\Entity\\UserEntity.cs",
@@ -199,18 +224,6 @@
               "ViewState": "AQIAAAgAAAAAAAAAAAAAwAMAAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-19T13:12:55.865Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "UserRegistrationModel.cs",
-              "DocumentMoniker": "D:\\C# Repository\\User_Microservice\\User_Microservice\\Model\\UserRegistrationModel.cs",
-              "RelativeDocumentMoniker": "User_Microservice\\Model\\UserRegistrationModel.cs",
-              "ToolTip": "D:\\C# Repository\\User_Microservice\\User_Microservice\\Model\\UserRegistrationModel.cs",
-              "RelativeToolTip": "User_Microservice\\Model\\UserRegistrationModel.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABEAAAAsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-19T13:23:18.462Z"
             }
           ]
         }

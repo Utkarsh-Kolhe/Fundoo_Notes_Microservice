@@ -55,5 +55,20 @@ namespace User_Microservice.Service
             }
             return null;
         }
+
+        public UserDisplayModel GetUserById(int id)
+        {
+            var user = _context.User_Details.FirstOrDefault(_e => _e.Id == id);
+
+            if (user != null)
+            {
+                UserDisplayModel model = new UserDisplayModel();
+                model.FirstName = user.FirstName;
+                model.LastName = user.LastName;
+                model.Email = user.Email;
+                return model;
+            }
+            return null;
+        }
     }
 }

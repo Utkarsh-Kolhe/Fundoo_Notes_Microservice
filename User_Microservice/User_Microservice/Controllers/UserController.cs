@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using User_Microservice.Entity;
 using User_Microservice.Interface;
 using User_Microservice.Model;
 
@@ -66,6 +67,34 @@ namespace User_Microservice.Controllers
                 }
             }
             catch (Exception ex)
+            {
+                responseModel.Success=false;
+                responseModel.Message = ex.Message;
+            }
+            return responseModel;
+        }
+
+        [HttpGet]
+        public ResponseModel<UserDisplayModel> GetUserById(int id)
+        {
+            var responseModel = new ResponseModel<UserDisplayModel>();
+
+            try
+            {
+                var user = _userInterface.GetUserById(id);
+
+                if(user != null)
+                {
+                    responseModel.Message = "User details retrived successfully.";
+                    responseModel.Data = user;
+                }
+                else
+                {
+                    responseModel.Success = false;
+                    responseModel.Message = "User Not Found.";
+                }
+            }
+            catch(Exception ex)
             {
                 responseModel.Success=false;
                 responseModel.Message = ex.Message;

@@ -1,4 +1,5 @@
-﻿using User_Microservice.Model;
+﻿using User_Microservice.Entity;
+using User_Microservice.Model;
 
 namespace User_Microservice.Interface
 {
@@ -7,5 +8,7 @@ namespace User_Microservice.Interface
         public bool AddNewUser(UserRegistrationModel model);
 
         public string UserLogin(UserLoginModel model);
+
+        public UserDisplayModel GetUserById(int id);
     }
 }
