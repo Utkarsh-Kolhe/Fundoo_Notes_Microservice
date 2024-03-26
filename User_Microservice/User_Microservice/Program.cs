@@ -12,11 +12,12 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddEndpointsApiExplorer();
+
 builder.Services.AddSwaggerGen(c =>
 {
     c.SwaggerDoc("v1", new OpenApiInfo
     {
-        Title = "FundooNotes_WebAPI",
+        Title = "User_Microservice",
         Version = "v1"
     });
 });

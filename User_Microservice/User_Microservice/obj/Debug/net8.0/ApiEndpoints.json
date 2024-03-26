@@ -1,18 +1,12 @@
 [
   {
     "ContainingType": "User_Microservice.Controllers.UserController",
-    "Method": "GetUserById",
+    "Method": "GetUserDetails",
     "RelativePath": "api/User",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": false
-      }
-    ],
+    "Parameters": [],
     "ReturnTypes": [
       {
         "Type": "User_Microservice.Model.ResponseModel\u00601[[User_Microservice.Model.UserDisplayModel, User_Microservice, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",

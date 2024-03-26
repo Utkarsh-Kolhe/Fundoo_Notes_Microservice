@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Authorization;
+﻿using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Notes_Microservice.Entity;
@@ -22,20 +23,28 @@ namespace Notes_Microservice.Controllers
 
         [HttpPost]
         [Authorize]
-        public ResponseModel<NotesModel> AddNote(NotesModel model)
+        public async Task<ResponseModel<NotesEntity>> AddNote(NotesModel model)
         {
-            ResponseModel<NotesModel> responseModel = new ResponseModel<NotesModel>();
+            ResponseModel<NotesEntity> responseModel = new ResponseModel<NotesEntity>();
+
             try
             {
+                // retriving user id from claims
                 var _userId = User.FindFirstValue("UserId");
                 int userId = Convert.ToInt32(_userId);
 
-                var result = _notesInterface.AddNote(model, userId);
+                // retriving token from header
+                //var token = Request.Headers["Authorization"];
 
-                if (result)
+                var authenticateResult = await HttpContext.AuthenticateAsync();
+                var token = authenticateResult.Properties.GetTokenValue("access_token");
+
+                var result = await _notesInterface.AddNote(model, userId, token);
+
+                if (result != null)
                 {
                     responseModel.Message = "Note created successfully.";
-                    responseModel.Data = model;
+                    responseModel.Data = result;
                 }
 
             }
@@ -135,6 +144,37 @@ namespace Notes_Microservice.Controllers
                 responseModel.Message = ex.Message;
             }
 
+            return responseModel;
+        }
+
+        [HttpGet("archived")]
+        [Authorize]
+        public ResponseModel<NotesEntity> ArchivedUnarchived(int noteId)
+        {
+            var responseModel = new ResponseModel<NotesEntity>();
+            try
+            {
+                var result = _notesInterface.IsArchivedOrUnarchived(noteId);
+                if(result == 1)
+                {
+                    responseModel.Message = "Note unarchived successfully.";
+                }
+                else if(result == 2)
+                {
+                    responseModel.Message = "Note archived successfully.";
+                }
+                else
+                {
+                    responseModel.Success = false;
+                    responseModel.Message = "Note not found.";
+                }
+
+            }
+            catch (Exception ex)
+            {
+                responseModel.Success = false;
+                responseModel.Message = ex.Message;
+            }
             return responseModel;
         }
     }

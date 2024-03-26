@@ -1,5 +1,7 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using System.Security.Claims;
 using User_Microservice.Entity;
 using User_Microservice.Interface;
 using User_Microservice.Model;
@@ -75,12 +77,16 @@ namespace User_Microservice.Controllers
         }
 
         [HttpGet]
-        public ResponseModel<UserDisplayModel> GetUserById(int id)
+        [Authorize]
+        public ResponseModel<UserDisplayModel> GetUserDetails()
         {
             var responseModel = new ResponseModel<UserDisplayModel>();
 
             try
             {
+                var _id = User.FindFirstValue("UserId");
+                int id = Convert.ToInt32(_id);
+
                 var user = _userInterface.GetUserById(id);
 
                 if(user != null)

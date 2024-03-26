@@ -5,9 +5,10 @@ namespace Notes_Microservice.Interface
 {
     public interface INotesInterface
     {
-        public bool AddNote(NotesModel model, int userId);
+        public Task<NotesEntity> AddNote(NotesModel model, int userId, string token);
         public List<NotesEntity> GetNotes(int userId);
         public bool EditNote(int noteId, int userId, NotesModel model);
         public bool DeleteNote(int noteId, int userId);
+        public int IsArchivedOrUnarchived(int noteId);
     }
 }

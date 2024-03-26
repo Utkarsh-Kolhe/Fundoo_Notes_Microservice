@@ -1,7 +1,11 @@
-﻿using Notes_Microservice.Context;
+﻿using Microsoft.EntityFrameworkCore.Storage.Json;
+using Newtonsoft.Json;
+using Notes_Microservice.Context;
 using Notes_Microservice.Entity;
 using Notes_Microservice.Interface;
+using Notes_Microservice.Model;
 using Notes_Microservice.Models;
+using System.Net.Http.Headers;
 
 namespace Notes_Microservice.Service
 {
@@ -13,7 +17,7 @@ namespace Notes_Microservice.Service
         {
             _context = context;
         }
-        public bool AddNote(NotesModel model, int userId)
+        public async Task<NotesEntity> AddNote(NotesModel model, int userId, string token)
         {
             NotesEntity notesEntity = new NotesEntity();
             notesEntity.Title = model.Title;
@@ -21,10 +25,45 @@ namespace Notes_Microservice.Service
             notesEntity.Colour = model.Colour;
             notesEntity.CreatedBy = userId;
 
+            notesEntity.User = await GetUserDetails(token);
+
             _context.Notes.Add(notesEntity);
             _context.SaveChanges();
 
-            return true;
+            return notesEntity;
+        }
+
+        public async Task<UserEntity> GetUserDetails(string token)
+        {
+            HttpClient httpClient = new HttpClient();
+
+            string url = "https://localhost:7069/api/User";
+            HttpRequestMessage request = new HttpRequestMessage(HttpMethod.Get, url);
+            request.Headers.Authorization = new AuthenticationHeaderValue("Bearer", token);
+
+            HttpResponseMessage responseMessage = await httpClient.SendAsync(request);
+
+            if (responseMessage.IsSuccessStatusCode)
+            {
+                string responseContent = await responseMessage.Content.ReadAsStringAsync();
+
+                var response = JsonConvert.DeserializeObject<ResponseModel<UserEntity>>(responseContent);
+
+                if(response != null && response.Data != null)
+                {
+                    return response.Data;
+                }
+                else
+                {
+                    throw new Exception("Failed to retrive user data");
+                }
+            }
+            else
+            {
+                throw new Exception("Failed to retrive user data");
+            }
+
+
         }
 
         public List<NotesEntity> GetNotes(int userId)
@@ -59,6 +98,31 @@ namespace Notes_Microservice.Service
                 return true;
             }
             return false;
+        }
+
+        public int IsArchivedOrUnarchived(int noteId)
+        {
+            var note = _context.Notes.FirstOrDefault(x => x.NoteId == noteId);
+            if (note != null)
+            {
+                if (note.IsArchived)
+                {
+                    note.IsArchived = false;
+                    _context.SaveChanges();
+                    return 1; // note unarchived
+                }
+                else
+                {
+                    note.IsArchived = true;
+                    _context.SaveChanges();
+                    return 2; // note archived
+                }
+            }
+            else
+            {
+                return 0; // note not found
+            }
+            
         }
     }
 }

@@ -41,6 +41,7 @@ builder.Services.AddSwaggerGen(c =>
 });
 
 builder.Services.AddDbContext<NotesContext>(option => option.UseSqlServer(builder.Configuration.GetConnectionString("SqlConnection")));
+
 builder.Services.AddScoped<INotesInterface, NotesService>();
 
 builder.Services.AddControllers();

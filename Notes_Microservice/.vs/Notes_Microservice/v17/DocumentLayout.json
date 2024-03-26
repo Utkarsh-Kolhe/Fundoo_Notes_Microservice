@@ -3,36 +3,40 @@
   "WorkspaceRootPath": "D:\\C# Repository\\Notes_Microservice\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{51BF8C2E-30ED-456C-A44F-1C461A4684AE}|Notes_Microservice\\Notes_Microservice.csproj|d:\\c# repository\\notes_microservice\\notes_microservice\\controllers\\notescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{51BF8C2E-30ED-456C-A44F-1C461A4684AE}|Notes_Microservice\\Notes_Microservice.csproj|solutionrelative:notes_microservice\\controllers\\notescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{51BF8C2E-30ED-456C-A44F-1C461A4684AE}|Notes_Microservice\\Notes_Microservice.csproj|d:\\c# repository\\notes_microservice\\notes_microservice\\interface\\inotesinterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{51BF8C2E-30ED-456C-A44F-1C461A4684AE}|Notes_Microservice\\Notes_Microservice.csproj|solutionrelative:notes_microservice\\interface\\inotesinterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{51BF8C2E-30ED-456C-A44F-1C461A4684AE}|Notes_Microservice\\Notes_Microservice.csproj|d:\\c# repository\\notes_microservice\\notes_microservice\\service\\notesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{51BF8C2E-30ED-456C-A44F-1C461A4684AE}|Notes_Microservice\\Notes_Microservice.csproj|solutionrelative:notes_microservice\\service\\notesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{51BF8C2E-30ED-456C-A44F-1C461A4684AE}|Notes_Microservice\\Notes_Microservice.csproj|d:\\c# repository\\notes_microservice\\notes_microservice\\models\\notesmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{51BF8C2E-30ED-456C-A44F-1C461A4684AE}|Notes_Microservice\\Notes_Microservice.csproj|solutionrelative:notes_microservice\\models\\notesmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{51BF8C2E-30ED-456C-A44F-1C461A4684AE}|Notes_Microservice\\Notes_Microservice.csproj|d:\\c# repository\\notes_microservice\\notes_microservice\\controllers\\notescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51BF8C2E-30ED-456C-A44F-1C461A4684AE}|Notes_Microservice\\Notes_Microservice.csproj|solutionrelative:notes_microservice\\controllers\\notescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{51BF8C2E-30ED-456C-A44F-1C461A4684AE}|Notes_Microservice\\Notes_Microservice.csproj|d:\\c# repository\\notes_microservice\\notes_microservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{51BF8C2E-30ED-456C-A44F-1C461A4684AE}|Notes_Microservice\\Notes_Microservice.csproj|solutionrelative:notes_microservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{51BF8C2E-30ED-456C-A44F-1C461A4684AE}|Notes_Microservice\\Notes_Microservice.csproj|d:\\c# repository\\notes_microservice\\notes_microservice\\models\\responsemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{51BF8C2E-30ED-456C-A44F-1C461A4684AE}|Notes_Microservice\\Notes_Microservice.csproj|solutionrelative:notes_microservice\\models\\responsemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{51BF8C2E-30ED-456C-A44F-1C461A4684AE}|Notes_Microservice\\Notes_Microservice.csproj|d:\\c# repository\\notes_microservice\\notes_microservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{51BF8C2E-30ED-456C-A44F-1C461A4684AE}|Notes_Microservice\\Notes_Microservice.csproj|solutionrelative:notes_microservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{51BF8C2E-30ED-456C-A44F-1C461A4684AE}|Notes_Microservice\\Notes_Microservice.csproj|d:\\c# repository\\notes_microservice\\notes_microservice\\interface\\inotesinterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51BF8C2E-30ED-456C-A44F-1C461A4684AE}|Notes_Microservice\\Notes_Microservice.csproj|solutionrelative:notes_microservice\\interface\\inotesinterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51BF8C2E-30ED-456C-A44F-1C461A4684AE}|Notes_Microservice\\Notes_Microservice.csproj|d:\\c# repository\\notes_microservice\\notes_microservice\\entity\\userentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51BF8C2E-30ED-456C-A44F-1C461A4684AE}|Notes_Microservice\\Notes_Microservice.csproj|solutionrelative:notes_microservice\\entity\\userentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{51BF8C2E-30ED-456C-A44F-1C461A4684AE}|Notes_Microservice\\Notes_Microservice.csproj|d:\\c# repository\\notes_microservice\\notes_microservice\\entity\\notesentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{51BF8C2E-30ED-456C-A44F-1C461A4684AE}|Notes_Microservice\\Notes_Microservice.csproj|solutionrelative:notes_microservice\\entity\\notesentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51BF8C2E-30ED-456C-A44F-1C461A4684AE}|Notes_Microservice\\Notes_Microservice.csproj|d:\\c# repository\\notes_microservice\\notes_microservice\\models\\responsemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51BF8C2E-30ED-456C-A44F-1C461A4684AE}|Notes_Microservice\\Notes_Microservice.csproj|solutionrelative:notes_microservice\\models\\responsemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51BF8C2E-30ED-456C-A44F-1C461A4684AE}|Notes_Microservice\\Notes_Microservice.csproj|d:\\c# repository\\notes_microservice\\notes_microservice\\models\\notesmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51BF8C2E-30ED-456C-A44F-1C461A4684AE}|Notes_Microservice\\Notes_Microservice.csproj|solutionrelative:notes_microservice\\models\\notesmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{51BF8C2E-30ED-456C-A44F-1C461A4684AE}|Notes_Microservice\\Notes_Microservice.csproj|d:\\c# repository\\notes_microservice\\notes_microservice\\context\\notescontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -46,61 +50,60 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ResponseModel.cs",
-              "DocumentMoniker": "D:\\C# Repository\\Notes_Microservice\\Notes_Microservice\\Models\\ResponseModel.cs",
-              "RelativeDocumentMoniker": "Notes_Microservice\\Models\\ResponseModel.cs",
-              "ToolTip": "D:\\C# Repository\\Notes_Microservice\\Notes_Microservice\\Models\\ResponseModel.cs",
-              "RelativeToolTip": "Notes_Microservice\\Models\\ResponseModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAeAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-20T11:32:00.143Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "NotesController.cs",
               "DocumentMoniker": "D:\\C# Repository\\Notes_Microservice\\Notes_Microservice\\Controllers\\NotesController.cs",
               "RelativeDocumentMoniker": "Notes_Microservice\\Controllers\\NotesController.cs",
               "ToolTip": "D:\\C# Repository\\Notes_Microservice\\Notes_Microservice\\Controllers\\NotesController.cs",
               "RelativeToolTip": "Notes_Microservice\\Controllers\\NotesController.cs",
-              "ViewState": "AQIAAF8AAAAAAAAAAAAQwIgAAAAAAAAA",
+              "ViewState": "AQIAAKIAAAAAAAAAAAAAwKsAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-20T11:29:56.405Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "NotesService.cs",
-              "DocumentMoniker": "D:\\C# Repository\\Notes_Microservice\\Notes_Microservice\\Service\\NotesService.cs",
-              "RelativeDocumentMoniker": "Notes_Microservice\\Service\\NotesService.cs",
-              "ToolTip": "D:\\C# Repository\\Notes_Microservice\\Notes_Microservice\\Service\\NotesService.cs",
-              "RelativeToolTip": "Notes_Microservice\\Service\\NotesService.cs",
-              "ViewState": "AQIAACkAAAAAAAAAAAAQwDMAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-20T10:52:06.311Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
               "Title": "NotesModel.cs",
               "DocumentMoniker": "D:\\C# Repository\\Notes_Microservice\\Notes_Microservice\\Models\\NotesModel.cs",
               "RelativeDocumentMoniker": "Notes_Microservice\\Models\\NotesModel.cs",
               "ToolTip": "D:\\C# Repository\\Notes_Microservice\\Notes_Microservice\\Models\\NotesModel.cs",
               "RelativeToolTip": "Notes_Microservice\\Models\\NotesModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAqAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-20T10:48:08.597Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
+              "Title": "UserEntity.cs",
+              "DocumentMoniker": "D:\\C# Repository\\Notes_Microservice\\Notes_Microservice\\Entity\\UserEntity.cs",
+              "RelativeDocumentMoniker": "Notes_Microservice\\Entity\\UserEntity.cs",
+              "ToolTip": "D:\\C# Repository\\Notes_Microservice\\Notes_Microservice\\Entity\\UserEntity.cs",
+              "RelativeToolTip": "Notes_Microservice\\Entity\\UserEntity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-21T07:37:38.074Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ResponseModel.cs",
+              "DocumentMoniker": "D:\\C# Repository\\Notes_Microservice\\Notes_Microservice\\Models\\ResponseModel.cs",
+              "RelativeDocumentMoniker": "Notes_Microservice\\Models\\ResponseModel.cs",
+              "ToolTip": "D:\\C# Repository\\Notes_Microservice\\Notes_Microservice\\Models\\ResponseModel.cs",
+              "RelativeToolTip": "Notes_Microservice\\Models\\ResponseModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T11:32:00.143Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "INotesInterface.cs",
               "DocumentMoniker": "D:\\C# Repository\\Notes_Microservice\\Notes_Microservice\\Interface\\INotesInterface.cs",
               "RelativeDocumentMoniker": "Notes_Microservice\\Interface\\INotesInterface.cs",
@@ -108,24 +111,24 @@
               "RelativeToolTip": "Notes_Microservice\\Interface\\INotesInterface.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA3AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-20T10:47:10.538Z",
+              "WhenOpened": "2024-03-20T10:47:10.538Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "NotesService.cs",
+              "DocumentMoniker": "D:\\C# Repository\\Notes_Microservice\\Notes_Microservice\\Service\\NotesService.cs",
+              "RelativeDocumentMoniker": "Notes_Microservice\\Service\\NotesService.cs",
+              "ToolTip": "D:\\C# Repository\\Notes_Microservice\\Notes_Microservice\\Service\\NotesService.cs",
+              "RelativeToolTip": "Notes_Microservice\\Service\\NotesService.cs",
+              "ViewState": "AQIAAGoAAAAAAAAAAAAUwHkAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T10:52:06.311Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\C# Repository\\Notes_Microservice\\Notes_Microservice\\Program.cs",
-              "RelativeDocumentMoniker": "Notes_Microservice\\Program.cs",
-              "ToolTip": "D:\\C# Repository\\Notes_Microservice\\Notes_Microservice\\Program.cs",
-              "RelativeToolTip": "Notes_Microservice\\Program.cs",
-              "ViewState": "AQIAAB0AAAAAAAAAAAAkwCsAAAA8AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-20T10:41:13.835Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\C# Repository\\Notes_Microservice\\Notes_Microservice\\appsettings.json",
               "RelativeDocumentMoniker": "Notes_Microservice\\appsettings.json",
@@ -137,7 +140,31 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\C# Repository\\Notes_Microservice\\Notes_Microservice\\Program.cs",
+              "RelativeDocumentMoniker": "Notes_Microservice\\Program.cs",
+              "ToolTip": "D:\\C# Repository\\Notes_Microservice\\Notes_Microservice\\Program.cs",
+              "RelativeToolTip": "Notes_Microservice\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T10:41:13.835Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "NotesEntity.cs",
+              "DocumentMoniker": "D:\\C# Repository\\Notes_Microservice\\Notes_Microservice\\Entity\\NotesEntity.cs",
+              "RelativeDocumentMoniker": "Notes_Microservice\\Entity\\NotesEntity.cs",
+              "ToolTip": "D:\\C# Repository\\Notes_Microservice\\Notes_Microservice\\Entity\\NotesEntity.cs",
+              "RelativeToolTip": "Notes_Microservice\\Entity\\NotesEntity.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAUwBgAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T09:29:08.199Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "NotesContext.cs",
               "DocumentMoniker": "D:\\C# Repository\\Notes_Microservice\\Notes_Microservice\\Context\\NotesContext.cs",
               "RelativeDocumentMoniker": "Notes_Microservice\\Context\\NotesContext.cs",
@@ -146,18 +173,6 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA1AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-20T10:33:37.563Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "NotesEntity.cs",
-              "DocumentMoniker": "D:\\C# Repository\\Notes_Microservice\\Notes_Microservice\\Entity\\NotesEntity.cs",
-              "RelativeDocumentMoniker": "Notes_Microservice\\Entity\\NotesEntity.cs",
-              "ToolTip": "D:\\C# Repository\\Notes_Microservice\\Notes_Microservice\\Entity\\NotesEntity.cs",
-              "RelativeToolTip": "Notes_Microservice\\Entity\\NotesEntity.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAxwAsAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-20T09:29:08.199Z"
             }
           ]
         }

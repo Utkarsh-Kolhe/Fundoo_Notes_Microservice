@@ -135,3 +135,4 @@ D:\C# Repository\Notes_Microservice\Notes_Microservice\obj\Debug\net8.0\refint\N
 D:\C# Repository\Notes_Microservice\Notes_Microservice\obj\Debug\net8.0\Notes_Microservice.pdb
 D:\C# Repository\Notes_Microservice\Notes_Microservice\obj\Debug\net8.0\Notes_Microservice.genruntimeconfig.cache
 D:\C# Repository\Notes_Microservice\Notes_Microservice\obj\Debug\net8.0\ref\Notes_Microservice.dll
+D:\C# Repository\Notes_Microservice\Notes_Microservice\bin\Debug\net8.0\Newtonsoft.Json.dll
