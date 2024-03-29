@@ -1,0 +1,185 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\C# Repository\\Collaborator_Microservice\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CB60542B-A87A-4494-BF91-A2B09F0AFC71}|Collaborator_Microservice\\Collaborator_Microservice.csproj|d:\\c# repository\\collaborator_microservice\\collaborator_microservice\\entity\\collaboratorentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB60542B-A87A-4494-BF91-A2B09F0AFC71}|Collaborator_Microservice\\Collaborator_Microservice.csproj|solutionrelative:collaborator_microservice\\entity\\collaboratorentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB60542B-A87A-4494-BF91-A2B09F0AFC71}|Collaborator_Microservice\\Collaborator_Microservice.csproj|d:\\c# repository\\collaborator_microservice\\collaborator_microservice\\service\\collaboratorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB60542B-A87A-4494-BF91-A2B09F0AFC71}|Collaborator_Microservice\\Collaborator_Microservice.csproj|solutionrelative:collaborator_microservice\\service\\collaboratorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB60542B-A87A-4494-BF91-A2B09F0AFC71}|Collaborator_Microservice\\Collaborator_Microservice.csproj|d:\\c# repository\\collaborator_microservice\\collaborator_microservice\\interface\\icollaboratorinterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB60542B-A87A-4494-BF91-A2B09F0AFC71}|Collaborator_Microservice\\Collaborator_Microservice.csproj|solutionrelative:collaborator_microservice\\interface\\icollaboratorinterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB60542B-A87A-4494-BF91-A2B09F0AFC71}|Collaborator_Microservice\\Collaborator_Microservice.csproj|d:\\c# repository\\collaborator_microservice\\collaborator_microservice\\controllers\\collaboratorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB60542B-A87A-4494-BF91-A2B09F0AFC71}|Collaborator_Microservice\\Collaborator_Microservice.csproj|solutionrelative:collaborator_microservice\\controllers\\collaboratorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB60542B-A87A-4494-BF91-A2B09F0AFC71}|Collaborator_Microservice\\Collaborator_Microservice.csproj|d:\\c# repository\\collaborator_microservice\\collaborator_microservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB60542B-A87A-4494-BF91-A2B09F0AFC71}|Collaborator_Microservice\\Collaborator_Microservice.csproj|solutionrelative:collaborator_microservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB60542B-A87A-4494-BF91-A2B09F0AFC71}|Collaborator_Microservice\\Collaborator_Microservice.csproj|d:\\c# repository\\collaborator_microservice\\collaborator_microservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{CB60542B-A87A-4494-BF91-A2B09F0AFC71}|Collaborator_Microservice\\Collaborator_Microservice.csproj|solutionrelative:collaborator_microservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB60542B-A87A-4494-BF91-A2B09F0AFC71}|Collaborator_Microservice\\Collaborator_Microservice.csproj|d:\\c# repository\\collaborator_microservice\\collaborator_microservice\\context\\collaboratorcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB60542B-A87A-4494-BF91-A2B09F0AFC71}|Collaborator_Microservice\\Collaborator_Microservice.csproj|solutionrelative:collaborator_microservice\\context\\collaboratorcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB60542B-A87A-4494-BF91-A2B09F0AFC71}|Collaborator_Microservice\\Collaborator_Microservice.csproj|d:\\c# repository\\collaborator_microservice\\collaborator_microservice\\model\\collaboratormodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB60542B-A87A-4494-BF91-A2B09F0AFC71}|Collaborator_Microservice\\Collaborator_Microservice.csproj|solutionrelative:collaborator_microservice\\model\\collaboratormodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB60542B-A87A-4494-BF91-A2B09F0AFC71}|Collaborator_Microservice\\Collaborator_Microservice.csproj|d:\\c# repository\\collaborator_microservice\\collaborator_microservice\\model\\responsemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB60542B-A87A-4494-BF91-A2B09F0AFC71}|Collaborator_Microservice\\Collaborator_Microservice.csproj|solutionrelative:collaborator_microservice\\model\\responsemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB60542B-A87A-4494-BF91-A2B09F0AFC71}|Collaborator_Microservice\\Collaborator_Microservice.csproj|d:\\c# repository\\collaborator_microservice\\collaborator_microservice\\migrations\\20240326054423_collaboratormigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB60542B-A87A-4494-BF91-A2B09F0AFC71}|Collaborator_Microservice\\Collaborator_Microservice.csproj|solutionrelative:collaborator_microservice\\migrations\\20240326054423_collaboratormigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CollaboratorController.cs",
+              "DocumentMoniker": "D:\\C# Repository\\Collaborator_Microservice\\Collaborator_Microservice\\Controllers\\CollaboratorController.cs",
+              "RelativeDocumentMoniker": "Collaborator_Microservice\\Controllers\\CollaboratorController.cs",
+              "ToolTip": "D:\\C# Repository\\Collaborator_Microservice\\Collaborator_Microservice\\Controllers\\CollaboratorController.cs",
+              "RelativeToolTip": "Collaborator_Microservice\\Controllers\\CollaboratorController.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAQwB0AAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-26T05:58:09.912Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ICollaboratorInterface.cs",
+              "DocumentMoniker": "D:\\C# Repository\\Collaborator_Microservice\\Collaborator_Microservice\\Interface\\ICollaboratorInterface.cs",
+              "RelativeDocumentMoniker": "Collaborator_Microservice\\Interface\\ICollaboratorInterface.cs",
+              "ToolTip": "D:\\C# Repository\\Collaborator_Microservice\\Collaborator_Microservice\\Interface\\ICollaboratorInterface.cs",
+              "RelativeToolTip": "Collaborator_Microservice\\Interface\\ICollaboratorInterface.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAsAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-26T05:50:31.319Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CollaboratorService.cs",
+              "DocumentMoniker": "D:\\C# Repository\\Collaborator_Microservice\\Collaborator_Microservice\\Service\\CollaboratorService.cs",
+              "RelativeDocumentMoniker": "Collaborator_Microservice\\Service\\CollaboratorService.cs",
+              "ToolTip": "D:\\C# Repository\\Collaborator_Microservice\\Collaborator_Microservice\\Service\\CollaboratorService.cs",
+              "RelativeToolTip": "Collaborator_Microservice\\Service\\CollaboratorService.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAC0AAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-26T05:48:49.126Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CollaboratorModel.cs",
+              "DocumentMoniker": "D:\\C# Repository\\Collaborator_Microservice\\Collaborator_Microservice\\Model\\CollaboratorModel.cs",
+              "RelativeDocumentMoniker": "Collaborator_Microservice\\Model\\CollaboratorModel.cs",
+              "ToolTip": "D:\\C# Repository\\Collaborator_Microservice\\Collaborator_Microservice\\Model\\CollaboratorModel.cs",
+              "RelativeToolTip": "Collaborator_Microservice\\Model\\CollaboratorModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-26T05:37:12.22Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\C# Repository\\Collaborator_Microservice\\Collaborator_Microservice\\Program.cs",
+              "RelativeDocumentMoniker": "Collaborator_Microservice\\Program.cs",
+              "ToolTip": "D:\\C# Repository\\Collaborator_Microservice\\Collaborator_Microservice\\Program.cs",
+              "RelativeToolTip": "Collaborator_Microservice\\Program.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAAACoAAABKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-26T05:22:27.6Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CollaboratorEntity.cs",
+              "DocumentMoniker": "D:\\C# Repository\\Collaborator_Microservice\\Collaborator_Microservice\\Entity\\CollaboratorEntity.cs",
+              "RelativeDocumentMoniker": "Collaborator_Microservice\\Entity\\CollaboratorEntity.cs",
+              "ToolTip": "D:\\C# Repository\\Collaborator_Microservice\\Collaborator_Microservice\\Entity\\CollaboratorEntity.cs",
+              "RelativeToolTip": "Collaborator_Microservice\\Entity\\CollaboratorEntity.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABQAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-26T05:31:09.092Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "20240326054423_collaboratorMigration.cs",
+              "DocumentMoniker": "D:\\C# Repository\\Collaborator_Microservice\\Collaborator_Microservice\\Migrations\\20240326054423_collaboratorMigration.cs",
+              "RelativeDocumentMoniker": "Collaborator_Microservice\\Migrations\\20240326054423_collaboratorMigration.cs",
+              "ToolTip": "D:\\C# Repository\\Collaborator_Microservice\\Collaborator_Microservice\\Migrations\\20240326054423_collaboratorMigration.cs",
+              "RelativeToolTip": "Collaborator_Microservice\\Migrations\\20240326054423_collaboratorMigration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-26T05:44:23.936Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ResponseModel.cs",
+              "DocumentMoniker": "D:\\C# Repository\\Collaborator_Microservice\\Collaborator_Microservice\\Model\\ResponseModel.cs",
+              "RelativeDocumentMoniker": "Collaborator_Microservice\\Model\\ResponseModel.cs",
+              "ToolTip": "D:\\C# Repository\\Collaborator_Microservice\\Collaborator_Microservice\\Model\\ResponseModel.cs",
+              "RelativeToolTip": "Collaborator_Microservice\\Model\\ResponseModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-26T05:36:46.744Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CollaboratorContext.cs",
+              "DocumentMoniker": "D:\\C# Repository\\Collaborator_Microservice\\Collaborator_Microservice\\Context\\CollaboratorContext.cs",
+              "RelativeDocumentMoniker": "Collaborator_Microservice\\Context\\CollaboratorContext.cs",
+              "ToolTip": "D:\\C# Repository\\Collaborator_Microservice\\Collaborator_Microservice\\Context\\CollaboratorContext.cs",
+              "RelativeToolTip": "Collaborator_Microservice\\Context\\CollaboratorContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-26T05:33:50.953Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\C# Repository\\Collaborator_Microservice\\Collaborator_Microservice\\appsettings.json",
+              "RelativeDocumentMoniker": "Collaborator_Microservice\\appsettings.json",
+              "ToolTip": "D:\\C# Repository\\Collaborator_Microservice\\Collaborator_Microservice\\appsettings.json",
+              "RelativeToolTip": "Collaborator_Microservice\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-03-26T05:24:20.574Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
