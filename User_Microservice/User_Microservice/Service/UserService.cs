@@ -4,6 +4,7 @@ using User_Microservice.Interface;
 using User_Microservice.Model;
 using User_Microservice.Hashing;
 using User_Microservice.JWT;
+using Service;
 
 namespace User_Microservice.Service
 {
@@ -69,6 +70,48 @@ namespace User_Microservice.Service
                 return model;
             }
             return null;
+        }
+
+        public async Task<string?> Forget_Password(string email)
+        {
+            var user = _context.User_Details.FirstOrDefault(e => e.Email == email);
+            JwtToken token = new JwtToken(_configuration);
+
+
+            if (user != null)
+            {
+                string _token = token.GenerateTokenReset(user.Email, user.Id);
+
+
+                // Generate password reset link
+                var callbackUrl = $"https://localhost:7257/api/User/ResetPassword?token={_token}";
+
+                // Send password reset email
+                EmailService _emailService = new EmailService();
+                await _emailService.SendEmailAsync(email, "Reset Password", callbackUrl);
+                return "Ok";
+            }
+            else
+            {
+                return null;
+
+            }
+        }
+
+        public bool PasswordReset(string newPassword, int userId)
+        {
+            var User = _context.User_Details.FirstOrDefault(e => e.Id == userId);
+
+            if (User != null)
+            {
+                string newPass = _password.HashPassword(newPassword);
+                User.Password = newPass;
+                _context.SaveChanges();
+                return true;
+            }
+            return false;
+
+
         }
     }
 }

@@ -10,5 +10,9 @@ namespace User_Microservice.Interface
         public string UserLogin(UserLoginModel model);
 
         public UserDisplayModel GetUserById(int id);
+
+        public Task<string> Forget_Password(string email);
+
+        public bool PasswordReset(string newPassword, int userId);
     }
 }
