@@ -10,5 +10,6 @@ namespace Notes_Microservice.Interface
         public bool EditNote(int noteId, int userId, NotesModel model);
         public bool DeleteNote(int noteId, int userId);
         public int IsArchivedOrUnarchived(int noteId);
+        public int TrashUntrashNote(int noteId);
     }
 }

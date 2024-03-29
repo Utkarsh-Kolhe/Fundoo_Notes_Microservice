@@ -147,7 +147,7 @@ namespace Notes_Microservice.Controllers
             return responseModel;
         }
 
-        [HttpGet("archived")]
+        [HttpPatch("archived")]
         [Authorize]
         public ResponseModel<NotesEntity> ArchivedUnarchived(int noteId)
         {
@@ -174,6 +174,33 @@ namespace Notes_Microservice.Controllers
             {
                 responseModel.Success = false;
                 responseModel.Message = ex.Message;
+            }
+            return responseModel;
+        }
+
+        [HttpPatch]
+        [Route("trash")]
+        [Authorize]
+        public ResponseModel<string> TrashUntrashNote(int noteId)
+        {
+            var responseModel = new ResponseModel<string>();
+
+            int result = _notesInterface.TrashUntrashNote(noteId);
+
+            if (result == 1)
+            {
+                responseModel.Success = true;
+                responseModel.Message = "Note untrash successfully.";
+            }
+            else if (result == 2)
+            {
+                responseModel.Success = true;
+                responseModel.Message = "Note trash successfully.";
+            }
+            else
+            {
+                responseModel.Success = false;
+                responseModel.Message = "Note not found";
             }
             return responseModel;
         }

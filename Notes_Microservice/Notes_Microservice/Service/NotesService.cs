@@ -12,10 +12,12 @@ namespace Notes_Microservice.Service
     public class NotesService : INotesInterface
     {
         private readonly NotesContext _context;
+        private readonly IConfiguration _configuration;
 
-        public NotesService(NotesContext context)
+        public NotesService(NotesContext context, IConfiguration configuration)
         {
             _context = context;
+            _configuration = configuration;
         }
         public async Task<NotesEntity> AddNote(NotesModel model, int userId, string token)
         {
@@ -37,8 +39,9 @@ namespace Notes_Microservice.Service
         {
             HttpClient httpClient = new HttpClient();
 
-            string url = "https://localhost:7069/api/User";
-            HttpRequestMessage request = new HttpRequestMessage(HttpMethod.Get, url);
+            //string url = "https://localhost:7069/api/User";
+            string? apiUrl = _configuration["ApiUrl"];
+            HttpRequestMessage request = new HttpRequestMessage(HttpMethod.Get, apiUrl);
             request.Headers.Authorization = new AuthenticationHeaderValue("Bearer", token);
 
             HttpResponseMessage responseMessage = await httpClient.SendAsync(request);
@@ -118,11 +121,31 @@ namespace Notes_Microservice.Service
                     return 2; // note archived
                 }
             }
-            else
-            {
-                return 0; // note not found
-            }
             
+            return 0; // note not found
+        }
+
+        public int TrashUntrashNote(int noteId)
+        {
+            var Note = _context.Notes.FirstOrDefault(o => o.NoteId == noteId);
+            if (Note != null)
+            {
+                if (Note.IsDeleted)
+                {
+                    Note.IsDeleted = false;
+                    _context.SaveChanges();
+                    return 1; // 1 => note untrashed 
+                }
+                else
+                {
+                    Note.IsDeleted = true;
+                    _context.SaveChanges();
+                    return 2; // 2 => note trashed
+                }
+
+            }
+
+            return 0; // 0 => note not found
         }
     }
 }
